@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Monitoring
+comment0.text=\r\n\ The\ Monitoring\ class\ contains\ the\ a\ list\ of\ \r\n\ oservatory.\ Also\ provides\ methode\ to\ print\r\n\ statistic\ values.\r\n\r\n\ @author\ (Christina\ Deligiorgi)\r\n\ @version\ (1.0)\r\n
+comment1.params=
+comment1.target=Monitoring()
+comment1.text=\r\n\ Construct\ the\ monitoring,\ creating\ new\ list\ of\ observatory.\ \r\n
+comment2.params=id\ name\ country\ year\ area
+comment2.target=void\ addObs(int,\ java.lang.String,\ java.lang.String,\ int,\ int)
+comment2.text=\r\n\ Add\ an\ observatory\ to\ the\ list.\ \r\n@param\ id\ The\ id\ number\ of\ the\ observatory.\r\n@param\ name\ The\ observatory\ Name.\r\n@param\ country\ The\ observatory\ country.\r\n@param\ year\ The\ starting\ year\ of\ observation.\ \r\n@param\ area\ The\ covered\ area\ by\ the\ observatory.\r\n
+comment3.params=x\ magnitude\ latitude\ longtitude\ year
+comment3.target=void\ addEarthquakeToObs(int,\ double,\ double,\ double,\ int)
+comment3.text=\r\n\ Add\ earthquake\ object\ to\ a\ specific\ observatory\ with\ an\ ID\ x.\r\n@param\ x\ The\ id\ number\ of\ the\ observatory.\r\n@param\ magnitude\ The\ earthquake\ magnitudes.\r\n@param\ latitude\ The\ latitdue\ positon.\ \r\n@param\ longitude\ The\ longitude\ postion.\r\n@param\ year\ The\ year\ when\ the\ event\ happend.\ \r\n
+comment4.params=
+comment4.target=void\ getAvgLargestMag()
+comment4.text=\r\n\ Get\ the\ largest\ average\ magnitude\ among\ all\ observatories.\ \ \r\n
+comment5.params=
+comment5.target=void\ getLargestEverMag()
+comment5.text=\r\n\ Get\ the\ largest\ magnitude\ ever\ recorded.\ \ \r\n
+comment6.params=y
+comment6.target=void\ getListOfLargerThanNumber(double)
+comment6.text=\r\n\ Get\ the\ list\ of\ earthquakes\ have\ magnitude\ larger\ than\ number\ given.\ \r\n\ @\ param\ y\ The\ given\ number.\ \r\n
+numComments=7

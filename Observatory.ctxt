@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Observatory
+comment0.text=\r\n\ A\ class\ to\ create\ Observatories.\r\n\r\n\ @author\ (Christina\ Deligiorgi)\r\n\ @version\ (1.0)\r\n
+comment1.params=id\ name\ country\ year\ area
+comment1.target=Observatory(int,\ java.lang.String,\ java.lang.String,\ int,\ int)
+comment1.text=\r\n\ Initiates\ an\ observatory.\r\n@param\ id\ The\ id\ number\ of\ the\ observatory.\r\n@param\ name\ The\ observatory\ Name.\r\n@param\ country\ The\ observatory\ country.\r\n@param\ year\ The\ starting\ year\ of\ observation.\ \r\n@param\ area\ The\ covered\ area\ by\ the\ observatory.\r\n
+comment2.params=magnitude\ latitude\ longtitude\ year
+comment2.target=void\ addEarthquake(double,\ double,\ double,\ int)
+comment2.text=\r\n\ Method\ that\ adds\ a\ new\ Earthquake\r\n@param\ magnitude\ The\ earthquake\ magnitudes.\r\n@param\ latitude\ The\ latitdue\ positon.\ \r\n@param\ longitude\ The\ longitude\ postion.\r\n@param\ year\ The\ year\ when\ the\ event\ happend.\ \r\n
+comment3.params=
+comment3.target=void\ printEarthEvents()
+comment3.text=\r\n\ Print\ a\ list\ of\ earthquake\ events.\r\n
+comment4.params=
+comment4.target=int\ getIndex()
+comment4.text=\r\n\ Print\ a\ list\ of\ earthquake\ events.\r\n
+comment5.params=
+comment5.target=double\ getLargestMag()
+comment5.text=\r\n\ @return\ The\ largest\ magnitude.\ \r\n
+comment6.params=
+comment6.target=double\ getAverageMag()
+comment6.text=\r\n\ @return\ The\ average\ of\ magnitudes.\ \r\n
+comment7.params=x
+comment7.target=void\ getListOfEventsLargerThanx(double)
+comment7.text=\r\n\ Print\ a\ list\ of\ events\ larger\ than\ a\ given\ number.\r\n\ @param\ x\ The\ given\ number.\r\n
+numComments=8
